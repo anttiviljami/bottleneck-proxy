@@ -1,0 +1,23 @@
+{
+  "name": "bottleneck-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy to limit concurrent HTTP requests to a target endpoint",
+  "main": "index.js",
+  "bin": {
+    "bottleneck-proxy": "./bottleneck-proxy"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anttiviljami/bottleneck-proxy.git"
+  },
+  "keywords": ["bottleneck", "proxy", "concurrent", "rate-limiting", "sam"],
+  "author": "Viljami Kuosmanen <viljami@viljami.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anttiviljami/bottleneck-proxy/issues"
+  },
+  "homepage": "https://github.com/anttiviljami/bottleneck-proxy#readme"
+}
